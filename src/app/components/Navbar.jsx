@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 export default function Navbar() {
+
     const [menuOpened,setMenuOpened] = useState(false);
     
     return (
